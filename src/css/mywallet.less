@@ -1,0 +1,96 @@
+@charset "utf-8";
+@import "common.less";
+#wallet_main{
+	width:1000px;
+	margin-left: 22px;
+	height:500px;
+	float: left;
+
+	border: 1px solid #f5f5f5;
+	h2{
+		
+		background-color: #f0f0f0;
+		border-bottom: 1px solid #f5f5f5;
+		height:50px;
+
+		a{
+			display: inline-block;
+			padding:15px 15px 10px 15px;
+			text-align: center;
+			font-size: 18px;
+			color:#737373;	
+			border-right: 1px solid #f5f5f5;		
+			
+			&:hover{
+
+				background:white;
+				
+			}
+		}
+		.checked{
+			background:white;
+				// border-right: 1px solid #f5f5f5;
+				// border-bottom: 1px solid white;
+		}
+
+	}
+	.wallet_c{
+			
+		.wallet{
+				width:340px;
+				height:154px;
+				// padding: 44px 85px;
+				margin:36px auto;
+				background-color: #faf8f4;
+				
+				vertical-align: middle;
+				dl{
+					padding-top: 40px;
+					dt{
+
+						float:left;
+						margin-left: 100px;
+						margin-right: 15px;
+					}
+					.myMoney{
+						font-size: 14px;
+						color:#8f8f8f;
+						.font();
+						padding-top: 10px;
+					}
+					.moneyTxt{
+						color:#0d0d0d;
+						font-size: 22px;
+					}
+				}
+			}
+	}
+	.pay_way{
+		
+		text-align: center;
+
+		
+		input{
+			width:292px;
+			padding:16px 0 12px 50px;
+			border:1px solid #dbdbdb;
+			background:url(../images/icon_all.png) no-repeat;
+			background-position: 14px -313px;
+			
+		}
+	}
+	.recharge{
+		text-align: center;
+		margin-top: 60px;
+		a{
+			display: inline-block;
+			width: 88px;
+		height:36px;
+		line-height: 36px;
+
+		background: #26c08a;
+		border-radius: 5px;
+		color:white;
+		}
+	}
+}

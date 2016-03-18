@@ -1,0 +1,204 @@
+.font{
+	font-family: "微软雅黑";
+}
+@maxWidth:1200px;
+#header{
+	.login_nav{
+		width:100%;
+		height:30px;
+		background:#f5f5f5;
+		border-bottom: 1px solid #f2f2f2;
+		.login_list{
+			width:1200px;	
+			height:30px;
+			margin:0 auto;
+			text-align: right;
+			line-height: 30px;			
+			.line1{
+				margin:0 8px;
+				color:#838383;
+			}
+			.line2{
+				margin-left: 7px;
+				margin-right: 12px;
+				color:#4d4d4d;
+			}
+			a{
+				display: inline-block;
+				color:#4d4d4d;
+				.font();
+				
+			}
+			.register{
+				margin-left: 12px;
+			}
+			.appDown{
+				padding-left: 18px;				
+				height:18px;
+				line-height: 18px;
+				background:url(../images/icon_all.png) 0 0 no-repeat;
+				background-position: 0 0;
+			}
+		}
+	}
+	.search_box{
+		width:1200px;
+		margin:20px auto;	
+		height:75px;
+			.logo{
+				float:left;
+			}
+		.select_box{
+			position: relative;
+			float:left;					
+			vertical-align: middle;
+			padding:2px 0;
+			margin-top: 21px;
+			margin-left: 42px;
+			color:#4d4d4d;
+			.font();
+			&:hover{
+					.cityNav{
+						display: block;
+					}					
+				}
+			span{
+				cursor: pointer;
+				font-size: 14px;
+				color: #4c4c4c;
+				&:after{
+					content: "";
+					display: inline-block;
+					width:30px;
+					height: 20px;
+					background:url(../images/icon_all.png) 0 -32px no-repeat;
+						background-position: 10px -22px;
+				}
+			}
+			.cityNav{
+				display: none;
+					position: absolute;
+					left: 0;
+					background: #fff;
+					top:25px;
+					width:50px;
+					cursor: pointer;
+					border: 1px solid #d9d9d9;
+					li{
+						height: 28px;
+						text-align: center;
+						padding:0 10px;
+						line-height: 28px;
+						cursor: pointer;
+						&:hover{
+							color: white;
+							background: #ffa130;
+						}
+					}
+				}
+		
+		}
+		.search_form{
+			float:left;		
+			margin-left: 30px;
+
+			.input_box{
+				width:480;
+				height:35px;
+				line-height: 35px;
+				border:2px solid #ffa130;
+				margin-top: 18px;
+			}
+			.search_t{
+				padding:6px 10px;
+				width:400px;
+				border:0;
+				*vertical-align: 4px;
+				
+			}
+			.search_s{
+					background:#ffa130;
+					outline: none;
+					border:0;
+					width:70px;
+					height:35px;
+					color:white;
+					font-size: 14px;
+					font-weight: bold;
+			}			
+		}
+	.manage{		
+		float: left;
+		margin-left: 65px;
+		text-align: center;
+		margin-top: 20px;
+		a{
+			height:32px;
+			line-height: 32px;
+			display: inline-block;
+			width:114px;
+			margin-left: 25px;
+			border:2px solid #e0e0e0;
+			color:#a5a5a5;
+			font-size: 14px;
+			.font();
+		}
+		.shop_car{
+			width:89px;
+			padding-left: 25px;
+			background:url(../images/icon_all.png) 0 0 no-repeat;
+			background-position:  24px -46px;
+		}
+	}
+
+	}
+	.nav{
+		height:46px;
+		width:100%;
+		background:#ffa130;
+		text-align: center;
+		line-height: 46px;
+		a{
+			.font();
+			display: inline-block;
+		color:white;
+		font-size: 16px;
+		width:171px;
+		&:hover{
+			background:#f88f1f;
+
+		}
+		}
+		.navactive{
+			background:#f88f1f;
+		}
+	}
+}
+/* 头部 END */
+
+
+/* 尾部 START */
+  #footer{
+  	height:80px;
+  	text-align: center;
+  	vertical-align: middle;
+  	background:#f9f0e4;
+  	padding-top:40px;
+  	a{
+  		color:#4d4d4d;
+  		.font();
+  	}
+  	span{
+  		margin:0 10px;
+  		color:#6d6964;
+  	}
+  	p{
+  		margin-top: 12px;
+  		color:#5e5e5e;
+  		.font();
+  	}
+
+  }
+
+
+/* 尾部 END */

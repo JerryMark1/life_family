@@ -1,0 +1,330 @@
+@charset "utf-8";
+@import "common.less";
+select{
+	outline: 0;
+}
+.modifiedworld{
+	float: left;
+	margin-left: 20px;
+	p{
+		.modification_wallet{
+			display: inline-block;
+			width:100px;
+			height:46px;
+			border:1px solid #e6e6e6;
+			text-align: center;
+			line-height: 46px;
+			font-size: 18px;
+			color:#4d4d4d;
+			.font();
+			border-bottom: 0;
+		}
+	}
+	}
+	.address_content{
+		width:1005px;
+		
+		border-top:1px solid #e6e6e6;
+		padding-top: 20px;
+		.addDress1{
+			display: inline-block;
+			width:100px;
+			height: 34px;
+			border:1px solid #dbdbdb;
+			text-align: center;
+			line-height: 34px;
+			font-size: 14px;
+			color:#b0b0b0;
+			margin-top: 16px;
+			
+		}
+		.address_left{
+			position: relative;
+			float:left;
+			width: 448px;
+			height: 96px;
+			padding:20px 15px 0 15px;
+			border:2px solid #e5e5e5;
+			background: #f7f7f7 url(../images/icon_all.png) no-repeat;
+			background-position: 447px -1060px;
+			.check{
+				position: absolute;
+				left: 447px;
+				top:0;
+			}
+			.add_one{
+				color:#3f3f3f;
+					font-size: 14px;
+					.font();
+				.address_phone{
+						margin-left: 10px;
+				}
+			}
+			.address_r{
+				margin-top: 20px;
+				font-size: 14px;
+				color:#252525;
+				.font();
+			}
+			.operation{
+				text-align: right;
+				
+				a{
+					font-size: 13px;
+					color:#737373;
+				}
+				.line{
+					display: inline-block;
+					vertical-align:top;
+					margin:0 3px;
+					color:#666666;
+					
+				}
+			}
+		}
+		// .checkbox{
+		// 	background: #f7f7f7 url(../images/icon_all.png) no-repeat;
+		// 	background-position: 447px -1060px;
+		// 	border:2px solid #e5e5e5;
+
+		// }
+		.address_right{
+			position: relative;
+			float:left;
+			width: 448px;
+			height: 96px;
+			padding:20px 15px 0 15px;
+			margin-left: 22px;
+		background: #f7f7f7 url(../images/icon_all.png) no-repeat;
+			background-position: 447px -1060px;
+			border:2px solid #e5e5e5;
+			.nocheck{
+				position: absolute;
+				left: 447px;
+				top:0;
+			}
+			.add_one{
+				color:#3f3f3f;
+					font-size: 14px;
+					.font();
+				.address_phone{
+						margin-left: 10px;
+				}
+			}
+			.address_r{
+				margin-top: 20px;
+				font-size: 14px;
+				color:#252525;
+				.font();
+			}
+			.operation{
+				text-align: right;
+				
+				a{
+					font-size: 13px;
+					color:#737373;
+				}
+				.line{
+					display: inline-block;
+					vertical-align:top;
+					margin:0 3px;
+					color:#666666;
+					
+				}
+			}
+
+		}
+		
+	}
+
+.newDress_box{
+	display: none;
+	position: fixed;
+	left: 0;
+	top: 0;
+	width:100%;
+	height: 100%;
+	background: rgba(0,0,0,0.5);
+
+	.newDress{
+		position: absolute;
+		left:50%;
+		top:50%;
+		margin-left: -437px;
+		margin-top: -273px;
+		width: 874px;
+		height:546px;
+		border:12px solid #ccc;
+
+		// padding:15px 15
+		h3{
+			background:#f0eded;
+			
+			.font();
+			padding:10px 0 10px 10px; 
+			font-size: 14px;
+			font-weight: bold;
+
+		}
+		.add_content{
+			background: white;
+			height:475px;
+		
+			padding:15px 0 15px 10px;
+			.adda{
+			color:#f8ab5b;
+			font-size: 14px;
+			.font();
+			}
+			.fill{
+				font-size: 14px;
+				.font();
+				margin-left: 20px;
+			}
+			.form{
+				margin-top: 40px;
+				margin-left: 46px;
+				li{
+					margin-top: 15px;
+					input,select{
+						border:1px solid #cccccc;
+						padding:10px 15px 10px 15px;
+					}
+					.city{
+						position: relative;
+						width:418px;
+						padding:11px 15px;
+						margin-left: 5px;
+						background:url(../images/icon_all.png) no-repeat;
+						background-position: 415px -800px;					
+					}
+					.city_list{
+						position: relative;
+						display: inline-block;
+					}
+					.selectCity{
+						position: absolute;
+						left: 0;
+						top:38px;
+						width:416px;
+						height: 390px;
+						border:1px solid #cccccc;
+						background-color: white;
+						.tb{
+							// margin:0 auto;
+							text-align: center;
+							margin-left: 20px;
+							td{
+								width:10%;
+							color:#141414;
+							font-size: 14px;
+							.font();
+							}
+						}
+						.city_count{
+							margin:0 20px;
+							border-bottom: 2px solid;
+							a{
+								position: relative;
+								top:2px;
+								left:0;
+								
+								display: inline-block;
+								width:13%;
+								
+								text-align: center;
+								font-size: 14px;
+								color:#141414;	
+								&:hover{
+									// border-bottom: 2px solid #f65f56;
+									background: url(../images/icon_all.png) no-repeat;
+									background-position: -8px -860px;
+								}				
+							}
+						}
+						.simulate{
+							
+							width:416px;
+							input{
+								border:0;
+								float:left;
+							}
+							a{
+								float:right;
+								display: inline-block;
+								width:15px;
+								height: 15px;
+								margin-top: 5px;
+								margin-right: 5px;
+								background:url(../images/icon_all.png) no-repeat;
+								background-position: -9px -841px;
+							}
+						}
+					}
+					#province{
+						width:418px;
+					}
+					.tre{
+						width:537px;
+						height:74px;
+						resize: none;
+						overflow: hidden;
+						padding:8px 0 0 15px;
+						border:1px solid #cccccc;
+						outline: 0;
+					}
+					.xsadress{
+						display: inline-block;
+						vertical-align: top;
+					}
+
+					.new{
+						display: inline-block;
+						vertical-align: top;
+					}
+					.save{
+						display: inline-block;
+						margin-left: 80px;
+						border:1px solid #cccccc;
+						width:114px;
+						height:34px;
+						border-radius: 5px;
+						text-align: center;
+						line-height: 34px;
+						background-color: #f2f2f2;
+						font-size: 16px;
+						margin-top: 35px;
+
+					}
+					.default{
+						margin-top: 5px;
+						margin-left: 80px;
+						// color:#424242;
+						font-size: 14px;
+						.font();
+						input{
+							vertical-align: middle;
+							outline: 0;
+							border:0;
+						}
+					}
+
+				}
+				.fonts{
+					color:#262626;
+					font-size: 14px;
+					.font();
+					font-weight: bold;
+				}
+			}
+			.bg{
+				display: inline-block;
+				width:11px;
+				background:url(../images/icon_all.png) no-repeat;
+				background-position: -9px -529px;
+			}
+		}
+		
+
+	}
+}

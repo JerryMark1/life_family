@@ -1,0 +1,420 @@
+@charset "utf-8";
+.font {
+  font-family: "微软雅黑";
+}
+#header .login_nav {
+  width: 100%;
+  height: 30px;
+  background: #f5f5f5;
+  border-bottom: 1px solid #f2f2f2;
+}
+#header .login_nav .login_left {
+  float: left;
+}
+#header .login_nav .login_left em {
+  color: #4c4c4c;
+  font-size: 12px;
+  font-family: "微软雅黑";
+}
+#header .login_nav .login_left .status {
+  display: inline-block;
+  width: 16px;
+  height: 13px;
+  background: url(../images/icon_all.png) no-repeat;
+  background-position: -15px -1028px;
+  vertical-align: middle;
+}
+#header .login_nav .login_nav_box {
+  width: 1200px;
+  height: 30px;
+  margin: 0 auto;
+  line-height: 30px;
+}
+#header .login_nav .login_list {
+  text-align: right;
+  line-height: 30px;
+}
+#header .login_nav .login_list .line1 {
+  margin: 0 8px;
+  color: #838383;
+}
+#header .login_nav .login_list .line2 {
+  margin-left: 7px;
+  margin-right: 12px;
+  color: #4d4d4d;
+}
+#header .login_nav .login_list a {
+  display: inline-block;
+  color: #4d4d4d;
+  font-family: "微软雅黑";
+}
+#header .login_nav .login_list .register {
+  margin-left: 12px;
+}
+#header .login_nav .login_list .appDown {
+  padding-left: 18px;
+  height: 18px;
+  line-height: 18px;
+  background: url(../images/icon_all.png) 0 0 no-repeat;
+  background-position: 0 0;
+}
+#header .search_box {
+  width: 1200px;
+  margin: 20px auto;
+  height: 75px;
+}
+#header .search_box .logo {
+  float: left;
+}
+#header .search_box .select_box {
+  position: relative;
+  float: left;
+  vertical-align: middle;
+  padding: 2px 0;
+  margin-top: 21px;
+  margin-left: 42px;
+  color: #4d4d4d;
+  font-family: "微软雅黑";
+}
+#header .search_box .select_box:hover .cityNav {
+  display: block;
+}
+#header .search_box .select_box span {
+  cursor: pointer;
+  font-size: 14px;
+  color: #4c4c4c;
+}
+#header .search_box .select_box span:after {
+  content: "";
+  display: inline-block;
+  width: 30px;
+  height: 20px;
+  background: url(../images/icon_all.png) 0 -32px no-repeat;
+  background-position: 10px -22px;
+}
+#header .search_box .select_box .cityNav {
+  display: none;
+  position: absolute;
+  left: 0;
+  background: #fff;
+  top: 25px;
+  width: 50px;
+  cursor: pointer;
+  border: 1px solid #d9d9d9;
+}
+#header .search_box .select_box .cityNav li {
+  height: 28px;
+  text-align: center;
+  padding: 0 10px;
+  line-height: 28px;
+  cursor: pointer;
+}
+#header .search_box .select_box .cityNav li:hover {
+  color: white;
+  background: #ffa130;
+}
+#header .search_box .search_form {
+  float: left;
+  margin-left: 30px;
+}
+#header .search_box .search_form .input_box {
+  width: 480;
+  height: 35px;
+  line-height: 35px;
+  border: 2px solid #ffa130;
+  margin-top: 18px;
+}
+#header .search_box .search_form .search_t {
+  padding: 6px 10px;
+  width: 400px;
+  border: 0;
+  *vertical-align: 4px;
+}
+#header .search_box .search_form .search_s {
+  background: #ffa130;
+  outline: none;
+  border: 0;
+  width: 70px;
+  height: 35px;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+}
+#header .search_box .manage {
+  float: left;
+  margin-left: 65px;
+  text-align: center;
+  margin-top: 20px;
+}
+#header .search_box .manage a {
+  height: 32px;
+  line-height: 32px;
+  display: inline-block;
+  width: 114px;
+  margin-left: 25px;
+  border: 2px solid #e0e0e0;
+  color: #a5a5a5;
+  font-size: 14px;
+  font-family: "微软雅黑";
+}
+#header .search_box .manage .shop_car {
+  width: 89px;
+  padding-left: 25px;
+  background: url(../images/icon_all.png) 0 0 no-repeat;
+  background-position: 24px -46px;
+}
+#header .nav {
+  height: 46px;
+  width: 100%;
+  background: #ffa130;
+  text-align: center;
+  line-height: 46px;
+}
+#header .nav a {
+  font-family: "微软雅黑";
+  display: inline-block;
+  color: white;
+  font-size: 16px;
+  width: 171px;
+}
+#header .nav a:hover {
+  background: #f88f1f;
+}
+#header .nav .navactive {
+  background: #f88f1f;
+}
+/* 头部 END */
+#container {
+  margin: 30px auto 86px;
+  width: 1200px;
+}
+#container .sideBar {
+  float: left;
+}
+#container .sideBar ul {
+  width: 170px;
+  text-align: center;
+  border: 1px solid #e6e6e6;
+  border-top: 0;
+}
+#container .sideBar ul .sideBar_first {
+  border-top: 4px solid #ffa130;
+}
+#container .sideBar ul li {
+  height: 50px;
+  line-height: 50px;
+}
+#container .sideBar ul li a {
+  font-size: 14px;
+  font-family: "微软雅黑";
+  color: #666666;
+  display: block;
+}
+#container .sideBar ul li a:hover {
+  background: #f88f1f;
+  color: white;
+}
+#container .sideBar ul li .sideBaractive {
+  background: #f88f1f;
+  color: white;
+}
+/* 尾部 START */
+#footer {
+  height: 80px;
+  text-align: center;
+  vertical-align: middle;
+  background: #f9f0e4;
+  padding-top: 40px;
+}
+#footer a {
+  color: #4d4d4d;
+  font-family: "微软雅黑";
+}
+#footer span {
+  margin: 0 10px;
+  color: #6d6964;
+}
+#footer p {
+  margin-top: 12px;
+  color: #5e5e5e;
+  font-family: "微软雅黑";
+}
+/* 尾部 END */
+.personalProfile {
+  margin-left: 20px;
+  width: 1005px;
+  float: left;
+  border: 1px solid #f5f5f5;
+}
+.personalProfile h2 {
+  height: 45px;
+  line-height: 45px;
+  border-bottom: 1px solid #e6e6e6;
+}
+.personalProfile h2 span {
+  display: inline-block;
+  font-size: 18px;
+  width: 100px;
+  text-align: center;
+  line-height: 45px;
+  height: 45px;
+  color: #4d4d4d;
+  font-family: "微软雅黑";
+  border-right: 1px solid #e5e5e5;
+}
+.personalProfile .modification {
+  margin: 40px 20px;
+  font-size: 14px;
+  color: #a1a1a1;
+  font-family: "微软雅黑";
+}
+.personalProfile .modification input {
+  padding: 10px 0 10px 10px;
+  width: 276px;
+  border: 1px solid #e6e6e6;
+}
+.personalProfile .modification .c_box {
+  margin-top: 30px;
+}
+.personalProfile .modification .warm {
+  margin-top: 5px;
+  margin-left: 80px;
+}
+.personalProfile .modification .face {
+  position: relative;
+  margin-bottom: 40px;
+  cursor: pointer;
+}
+.personalProfile .modification .face:before {
+  position: absolute;
+  left: 71px;
+  top: 0;
+  content: url(../images/bg_round.png);
+  width: 90px;
+  height: 90px;
+}
+.personalProfile .modification .face:after {
+  position: absolute;
+  left: 85px;
+  top: 60px;
+  width: 60px;
+  text-align: center;
+  height: 20px;
+  color: white;
+  border-radius: 20px;
+  background: rgba(0, 0, 0, 0.5);
+  content: "编辑头像";
+}
+.personalProfile .modification .face img {
+  width: 90px;
+  height: 90px;
+  margin-left: 40px;
+}
+.personalProfile .modification .username {
+  margin-right: 42px;
+}
+.personalProfile .modification .contact {
+  margin-right: 10px;
+}
+.personalProfile .modification .save {
+  text-align: center;
+  background: #f29525;
+  width: 80px;
+  height: 35px;
+  line-height: 35px;
+  border-radius: 5px;
+  border: 0;
+  padding: 0;
+  margin-left: 150px;
+  margin-top: 50px;
+  color: white;
+  font-family: "微软雅黑";
+  font-size: 14px;
+}
+.personalProfile .modification_foot {
+  border-top: 1px solid #e6e6e6;
+  padding-left: 20px;
+  padding-bottom: 30px;
+  padding-top: 28px;
+}
+.personalProfile .modification_foot li {
+  margin-top: 20px;
+}
+.personalProfile .modification_foot .mod_1 {
+  color: #595959;
+  font-size: 14px;
+  font-family: "微软雅黑";
+  margin-right: 45px;
+  font-weight: bold;
+}
+.personalProfile .modification_foot .mod_4 {
+  color: #595959;
+  font-size: 14px;
+  font-family: "微软雅黑";
+  margin-right: 16px;
+  font-weight: bold;
+}
+.personalProfile .modification_foot .mod_7 {
+  color: #595959;
+  font-size: 14px;
+  font-family: "微软雅黑";
+  margin-right: 44px;
+  font-weight: bold;
+}
+.personalProfile .modification_foot .mod_2 {
+  color: #969696;
+  font-size: 12px;
+  font-family: "微软雅黑";
+}
+.personalProfile .modification_foot .mod_5 {
+  color: #969696;
+  font-size: 12px;
+  font-family: "微软雅黑";
+}
+.personalProfile .modification_foot .mod_8 {
+  color: #969696;
+  font-size: 12px;
+  font-family: "微软雅黑";
+}
+.personalProfile .modification_foot .mod_3 {
+  margin-left: 70px;
+}
+.personalProfile .modification_foot .mod_3 a {
+  text-align: center;
+  display: inline-block;
+  width: 80px;
+  height: 34px;
+  line-height: 34px;
+  border-radius: 10px;
+  background: #26c08a;
+  color: white;
+  font-family: "微软雅黑";
+}
+.personalProfile .modification_foot .mod_6 {
+  margin-left: 70px;
+}
+.personalProfile .modification_foot .mod_6 a {
+  text-align: center;
+  display: inline-block;
+  width: 80px;
+  height: 34px;
+  line-height: 34px;
+  border-radius: 10px;
+  background: #26c08a;
+  color: white;
+  font-family: "微软雅黑";
+}
+.personalProfile .modification_foot .mod_9 {
+  margin-left: 167px;
+}
+.personalProfile .modification_foot .mod_9 a {
+  text-align: center;
+  display: inline-block;
+  width: 80px;
+  height: 34px;
+  line-height: 34px;
+  border-radius: 10px;
+  background: #26c08a;
+  color: white;
+  font-family: "微软雅黑";
+}

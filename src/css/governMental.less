@@ -1,0 +1,223 @@
+@charset "utf-8";
+@import  "common.less";
+#governMentalBox{	
+	background:#f5f5f5;
+	.gMbox{
+		width:1200px;
+		margin:0 auto;
+
+		.gMb_sildBar{
+			position: relative;
+			padding-top: 195px;
+			margin-left: 30px;
+			float:left;
+
+			ul{
+				float: left;
+			
+				width:70px;
+				
+				li{
+					height:50px;
+					a{
+						color:#ada099;
+						&:hover{
+							color:#eb6926;
+						}
+					}
+					.activeg1{
+						color:#eb6926;
+					}
+
+					
+				}
+				
+			}
+			
+		}
+		.line{
+				float:left;
+				margin-top: 5px;				
+				height:260px;
+				width:2px;
+				background:#c0b7b2;
+				.point1{
+					display: inline-block;
+					position: absolute;
+					left:64px;
+					top:195px;
+					width:25px;
+					height:25px;
+					background: url(../images/icon_all.png) 0 0 no-repeat;
+					background-position:  -4px -154px;
+					
+				}
+				
+					.point2{
+					display: inline-block;
+					position: absolute;
+					left:64px;
+					top:245px;
+					width:25px;
+					height:25px;
+					background: url(../images/icon_all.png) 0 0 no-repeat;
+					background-position:  0 -189px;
+					
+				}
+					.point3{
+					display: inline-block;
+					position: absolute;
+					left:64px;
+					top:295px;
+					width:25px;
+					height:25px;
+					background: url(../images/icon_all.png) 0 0 no-repeat;
+					background-position:  0 -189px;
+					
+				}
+						.point4{
+					display: inline-block;
+					position: absolute;
+					left:64px;
+					top:345px;
+					width:25px;
+					height:25px;
+					background: url(../images/icon_all.png) 0 0 no-repeat;
+					background-position:  0 -189px;					
+				}
+					.point5{
+					display: inline-block;
+					position: absolute;
+					left:64px;
+					top:395px;
+					width:25px;
+					height:25px;
+					background: url(../images/icon_all.png) 0 0 no-repeat;
+					background-position:  0 -189px;					
+				}
+				.point6{
+					display: inline-block;
+					position: absolute;
+					left:64px;
+					top:447px;
+					width:25px;
+					height:25px;
+					background: url(../images/icon_all.png) 0 0 no-repeat;
+					background-position:  0 -189px;					
+				}
+
+
+			}
+			.gMb_comment{
+				height:992px;
+				margin:28px 0 50px 60px;
+				width:957px;
+				background:white;
+				border:1px solid #e6e6e6;
+				padding:30px 24px;
+				float:left;
+				position: relative;
+				>div{
+					float:left;
+					margin-right:25px;
+				}
+				.box4,.box8{
+					margin-right: 0;
+				}
+				.box5,.box6,.box7,.box8{
+						margin-top: 28px;
+				}
+				// div:nth-child(4),div:nth-child(8){
+				// 	margin-right: 0;
+				// }
+				// div:nth-child(5),div:nth-child(6),div:nth-child(7),div:nth-child(8){
+				// 	margin-top: 28px;
+				// }
+				.gMbCoBox1{
+					position: relative;
+					width:218px;
+					height:274px;
+					border:1px solid #e6e6e6;
+					.date{
+						display: inline-block;
+						position: absolute;
+						left:0;
+						top:0;
+						width:56px;
+						height:56px;
+						text-align: center;
+						background: #dc001e;
+						em{
+							font-size:23px;
+							.font();
+							color:white;
+							// border:1px solid red;
+						}
+						span{
+							margin-top: 0;
+							display: block;
+							color:#f9dfe1;
+							font-size: 12px;
+							opacity: 0.9;
+						}
+
+					}
+					img{
+						width:218px;
+						height:140px;
+						border:0;
+					}
+					.appDown{
+						display: inline-block;
+						margin:15px 0 10px 15px;
+						a{
+							font-size:14px;
+							color:#1a1a1a;
+						}
+
+					}
+					.explain{
+						font-size: 12px;
+						.font();
+						color:#8a8a8a;
+								margin:0 15px 10px 15px;
+						}
+						.detailed{
+							display: inline-block;
+								font-size: 12px;
+								color:#e1514a;
+								margin:5px 15px 10px 15px;
+						}
+
+				}
+
+			}
+
+	}
+	.page{
+		position: absolute;
+		bottom:40px;
+		left:50%;
+		margin-left: -228px;
+			a{
+				text-align: center;
+				display: inline-block;
+				border:1px solid #cccccc;
+				width:28px;
+				line-height: 28px;
+				height:28px;
+				margin-right: 28px;
+				&:hover{
+					background: #fb7803;
+					color:white;
+				}	
+			}
+			.pagActive{
+					background: #fb7803;
+					color:white;
+			}
+
+				
+	}
+
+}
